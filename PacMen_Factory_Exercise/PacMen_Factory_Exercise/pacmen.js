@@ -34,7 +34,11 @@ function makePac() {
   game.appendChild(newimg);
 
   // TODO add new Child image to game
- 
+  for(var i=0;i<2;i++){
+    balls[i].style.left = x;
+    balls[i].sttyle.top = y;
+    balls[i].style.transform = "translate(-"+x+",-"+y+")";
+  }
   // return details in an object
   return {
     position,
