@@ -1,1 +1,90 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(179, 179, 179);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(97, 97, 97);
+  }
+  .active {
+    background-color: rgb(218, 113, 113);
+  }
+  
+  body {
+    background-color:rgb(241, 165, 165);
+    
+  }
+  div,iframe  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #777;
+}
+  div, video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #777;
+}
 
+p {
+    margin: 50px;
+   
+
+}
+
+#wrap {
+    width: 60%;
+    height: 40;
+    margin: auto;
+    background: #fff;
+    overflow: hidden;
+    padding: 15px;
+    box-shadow:rgba(0, 0, 0, 0.685) 10px 10px;
+    
+  }
+  /*\/\/\/ center \/\/\/ */
+  .card {
+  float: left;
+    padding: auto;
+    margin: 14px;
+    background-color: #777;
+   text-align: center;
+  
+}
+
+
+
+img {
+    width: 30%;
+
+
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+
+  
+ 
